@@ -10,9 +10,10 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
+  background: rgba(184, 182, 182, 0.5);
   align-items: center;
   justify-content: space-between;
-  padding: 15px 200px;
+  padding: 20px 100px;
   color: #d9edbf;
   z-index: 99;
   display: flex;
@@ -74,7 +75,7 @@ nav .logo {
 }
 
 section {
-  padding: 100px 20px 200px;
+  padding: 150px 20px 200px;
 }
 .nav-active{
   position: fixed;
@@ -102,6 +103,7 @@ section {
   width: 90%;
   z-index: 88;
   display: none;
+ 
  
 }
 .home .content.active {
@@ -238,7 +240,7 @@ section {
 .row {
   display: flex;
   align-items: center;
-  gap: 14vw;
+  gap: 17vw;
   padding: 2rem 0;
   padding-bottom: 3rem;
 }
