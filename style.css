@@ -74,7 +74,7 @@ nav .logo {
 }
 
 section {
-  padding: 100px 200px;
+  padding: 100px 20px 200px;
 }
 .nav-active{
   position: fixed;
@@ -83,7 +83,7 @@ section {
 .home {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 110%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -99,9 +99,10 @@ section {
   left: 0;
 }
 .home .content {
-  width: 70%;
+  width: 90%;
   z-index: 88;
   display: none;
+ 
 }
 .home .content.active {
   display: block;
@@ -115,7 +116,7 @@ section {
   text-transform: capitalize;
   letter-spacing: 1px;
   line-height: 75px;
-  margin-top: 40px;
+  
 }
 .home .content h2 span {
   font-family: "pacifico", sans-serif;
@@ -157,12 +158,12 @@ section {
 .home .media-icons a {
   font-size: 1.1em;
   transition: 0.3s ease;
-  color: rgb(102, 100, 102);
+  color: rgb(19, 17, 19);
   z-index: 77;
 }
 
 .home .media-icons a:not(:last-child) {
-  margin-bottom: 16vh;
+  margin-bottom: 8vh;
 }
 
 .home .media-icons a:hover {
@@ -186,7 +187,7 @@ section {
   justify-content: center;
   align-items: center;
   transform: translateY(80px);
- bottom:10px
+ bottom:0
 }
 .slider-navigation .nav-btn {
   width: 9px;
@@ -291,7 +292,7 @@ section {
   justify-content: center;
   align-items: center;
   padding: 15vh 0 0 0;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   
 }
 .discover-heading{margin-top: 6vh;
@@ -355,7 +356,7 @@ section {
 
 .card .cards  img{
 width: 400px;
-height: 350px;
+height: 300px; 
 border-bottom:3px solid rgb(0, 0, 0);
 }
 .cards .number {
@@ -393,9 +394,7 @@ align-self: center;
     right: 15px;
   }
 
-  section {
-    padding: 100px 20px;
-  }
+  
   nav .navigation {
     display: none;
   }
