@@ -596,11 +596,13 @@ background-color: #ffc7d6;
 }
 
 }
-@media  (max-width:732px){
+@media  (max-width:720px){
   
     .categories {
       .grid{
-        width: 90%;
+        width: 70%;
+       align-items: center;
+       justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr ;
     row-gap: 10px;
@@ -611,7 +613,8 @@ background-color: #ffc7d6;
    
   .categories { .grid{
  width: 50%;
- margin: auto;
+ align-items: center;
+       justify-content: center;
 display: grid;
 grid-template-columns: 1fr  ;
 }
