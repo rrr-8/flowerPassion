@@ -109,13 +109,13 @@ section {
 
 .home .content h2 {
   font-family: "lora", sans-serif;
-  font-size: 3.5em;
+  font-size: 2.3em;
   font-weight: 600;
   color: #000000;
   text-transform: capitalize;
   letter-spacing: 1px;
   line-height: 75px;
-  margin-bottom: 40px;
+  margin-top: 40px;
 }
 .home .content h2 span {
   font-family: "pacifico", sans-serif;

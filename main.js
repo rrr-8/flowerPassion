@@ -77,4 +77,15 @@ contents.forEach((content)=>{
    },
  });
 
- 
+ function destroyTilt() {
+  var tiltElements = document.querySelectorAll(`[data-tilt]`);
+  var mq = window.matchMedia("(max-width: 1025px)");
+  if (mq.matches) {
+      for (var i = 0, len = tiltElements.length; i < len; i++) {
+          tiltElements[i].vanillaTilt.destroy();
+      }
+  } else {
+      console.log('pedal');
+  }
+}
+destroyTilt();
