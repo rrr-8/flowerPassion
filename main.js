@@ -1,21 +1,3 @@
-var nav=document.querySelector(".navbar");
-console.log(nav)
-window.onscroll = () => {
-  if (window.scrollY >=730) {
-      nav.classList.add('nav-active');
-  } else {
-      nav.classList.remove('nav-active');
-  }
-};
-
-
-let menubtn = document.querySelector(".menu-btn");
-let navigation = document.querySelector(".navigation");
-
-menubtn.addEventListener("click", function (){
-  menubtn.classList.toggle("active");
-  navigation.classList.toggle("active") 
-})
 
 
 
@@ -92,13 +74,16 @@ destroyTilt();
 
 
 let scrollToTop = document.getElementById("up");
-
+var nav=document.querySelector(".navbar");
  
   window.onscroll = function () {
     if (scrollY >= 500) {
       scrollToTop.style.display = "flex";
+      nav.classList.add('nav-active');
+    
     } else {
       scrollToTop.style.display = "none";
+      nav.classList.remove('nav-active');
       
     }
 }
@@ -109,3 +94,15 @@ scrollToTop.onclick = function () {
     behavior: "smooth",
   });
 };
+
+
+
+
+
+let menubtn = document.querySelector(".menu-btn");
+let navigation = document.querySelector(".navigation");
+
+menubtn.addEventListener("click", function (){
+  menubtn.classList.toggle("active");
+  navigation.classList.toggle("active") 
+})
