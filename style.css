@@ -1,3 +1,8 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
 @import url("https://fonts.googleapis.com/css2?family=Dhurjati&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap");
 * {
   margin: 0;
@@ -38,7 +43,7 @@ nav .logo {
 }
 nav .links a {
   position: relative;
-  color: rgb(0, 0, 0);
+  color: rgb(49, 37, 37);
   margin-left: 30px;
   font-weight: 900;
   text-decoration: none;
@@ -170,7 +175,7 @@ section {
 }
 
 .home .media-icons a:not(:last-child) {
-  margin-bottom: 8vh;
+  margin-bottom: 17vh;
 }
 
 .home .media-icons a:hover {
@@ -934,3 +939,32 @@ address{
 }
 
 
+
+
+#up {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: crimson;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0.5px 1px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: var(--transition-speed);
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bolder;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  display: none;
+  scroll-behavior: smooth;
+  z-index: 88;
+}
+
+#up:hover {
+  background-color: rgb(156, 1, 32);
+  scroll-behavior: smooth;
+}

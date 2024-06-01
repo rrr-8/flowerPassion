@@ -89,3 +89,23 @@ contents.forEach((content)=>{
   }
 }
 destroyTilt();
+
+
+let scrollToTop = document.getElementById("up");
+
+ 
+  window.onscroll = function () {
+    if (scrollY >= 500) {
+      scrollToTop.style.display = "flex";
+    } else {
+      scrollToTop.style.display = "none";
+      
+    }
+}
+scrollToTop.onclick = function () {
+  window.scrollTo({
+    top: 0,
+    left:0,
+    behavior: "smooth",
+  });
+};
