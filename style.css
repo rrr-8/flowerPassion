@@ -260,6 +260,9 @@ section {
   flex: 1 1 40rem;
   position: relative;
 }
+.SEAF{
+  color: #000;
+}
 
 .row .video-container video {
   width: 250%;
